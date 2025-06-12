@@ -29,15 +29,14 @@ begin
         // pergunta número 1
         TextColor(5);
         write('Pergunta numero 1: ');
-        writeln(''); //pergunta
+        writeln('Qual das alternativas melhor resume a principal crítica feita pelo documentário às redes sociais?'); //pergunta
         TextColor(7);
         writeln();
         //alternativas
-        writeln('');
-        writeln('');
-        writeln('');
-        writeln('');
-        writeln('');
+        writeln('a) A dificuldade de manter os usuários conectados por longos períodos');
+        writeln('b) A coleta de dados apenas para melhorar a experiência do usuário');
+        writeln('c) O uso de algoritmos para manipular comportamentos e emoções');
+        writeln('d) A baixa qualidade dos vídeos publicados nas plataformas');
         //resposta
         writeln();
         write('Digite a resposta certa em letra maiuscula: ');
@@ -64,21 +63,20 @@ begin
         // pergunta número 2
         TextColor(5);
         write('Pergunta numero 2: ');
-        writeln(''); //pergunta
+        writeln(' Em "O Dilema das Redes", ex-funcionários de grandes empresas de tecnologia afirmam que:'); //pergunta
         TextColor(7);
         writeln();
         //alternativas
-        writeln('');
-        writeln('');
-        writeln('');
-        writeln('');
-        writeln('');
+        writeln('a) As redes sociais incentivam apenas interações positivas');
+        writeln('b) A inteligência artificial está sendo usada apenas para resolver problemas sociais');
+        writeln('c) Os algoritmos são neutros e sem influência nas decisões humanas');
+        writeln('d) Eles ajudaram a criar sistemas que agora consideram perigosos');
         //resposta
         writeln();
         write('Digite a resposta certa em letra maiuscula: ');
         readln(r);
 
-        if (r = 'C') then
+        if (r = 'D') then
         begin
             //se a resposta foi correta
             TextColor(2);
@@ -99,21 +97,20 @@ begin
         // pergunta número 3
         TextColor(5);
         write('Pergunta numero 3: ');
-        writeln(''); //pergunta
+        writeln('Qual foi o papel do personagem Ben no enredo ficcional que acompanha o documentário?'); //pergunta
         TextColor(7);
         writeln();
         //alternativas
-        writeln('');
-        writeln('');
-        writeln('');
-        writeln('');
-        writeln('');
+        writeln('A Um engenheiro que quer deletar sua conta nas redes.');
+        writeln(') Um adolescente influenciado por algoritmos de recomendação');
+        writeln(' Um professor que dá aula sobre fake news');
+        writeln(' Um programador que luta contra a desinformação');
         //resposta
         writeln();
         write('Digite a resposta certa em letra maiuscula: ');
         readln(r);
 
-        if (r = 'C') then
+        if (r = 'B') then
         begin
             //se aresposta foi correta
             TextColor(2);
