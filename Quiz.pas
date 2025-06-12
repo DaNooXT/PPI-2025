@@ -101,8 +101,8 @@ begin
         TextColor(7);
         writeln();
         //alternativas
-        writeln('A Um engenheiro que quer deletar sua conta nas redes.');
-        writeln(') Um adolescente influenciado por algoritmos de recomendação');
+        writeln(' Um engenheiro que quer deletar sua conta nas redes.');
+        writeln(' Um adolescente influenciado por algoritmos de recomendação');
         writeln(' Um professor que dá aula sobre fake news');
         writeln(' Um programador que luta contra a desinformação');
         //resposta
