@@ -17,7 +17,7 @@ begin
     TextColor(14);
     write('medio(2), ');
     TextColor(4);
-    write('dificil: ');
+    write('dificil(3): ');
     TextColor(7);
     readln(n);
     writeln('---------------------------------------------');
