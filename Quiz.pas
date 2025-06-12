@@ -80,7 +80,7 @@ begin
 
         if (r = 'C') then
         begin
-            //se aresposta foi correta
+            //se a resposta foi correta
             TextColor(2);
             writeln('Sua resposta foi correta, parabéns!!');
             TextColor(7);
@@ -89,7 +89,7 @@ begin
         end
         else
         begin
-            //se aresposta foi errada
+            //se a resposta foi errada
             TextColor(4);
             writeln('Sua resposta foi errada, você precisa estudar mais!!');
             TextColor(7);
