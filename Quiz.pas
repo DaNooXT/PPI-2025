@@ -67,11 +67,10 @@ begin
         TextColor(7);
         writeln();
         //alternativas
-        writeln('a As redes sociais incentivam apenas interações positivas');
-        writeln('b A inteligência artificial está sendo usada apenas para resolver problemas sociais');
-        writeln('c Os algoritmos são neutros e sem influência nas decisões humanas');
-        writeln('d Eles ajudaram a criar sistemas que agora consideram perigosos');
-        //resposta
+        writeln('a) As redes sociais incentivam apenas interações positivas');
+        writeln('b) A inteligência artificial está sendo usada apenas para resolver problemas sociais');
+        writeln('c) Os algoritmos são neutros e sem influência nas decisões humanas');
+        writeln('d) Eles ajudaram a criar sistemas que agora consideram perigosos');
         writeln();
         write('Digite a resposta certa em letra maiuscula: ');
         readln(r);
