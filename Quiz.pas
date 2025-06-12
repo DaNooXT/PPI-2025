@@ -74,7 +74,7 @@ begin
         writeln('');
         writeln('');
         //resposta
-        writeln();
+        writeln()
         write('Digite a resposta certa em letra maiuscula: ');
         readln(r);
 
