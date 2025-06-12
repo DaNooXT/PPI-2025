@@ -33,10 +33,10 @@ begin
         TextColor(7);
         writeln();
         //alternativas
-        writeln('a) A dificuldade de manter os usuários conectados por longos períodos');
-        writeln('b) A coleta de dados apenas para melhorar a experiência do usuário');
-        writeln('c) O uso de algoritmos para manipular comportamentos e emoções');
-        writeln('d) A baixa qualidade dos vídeos publicados nas plataformas');
+        writeln('a A dificuldade de manter os usuários conectados por longos períodos');
+        writeln('b A coleta de dados apenas para melhorar a experiência do usuário');
+        writeln('c O uso de algoritmos para manipular comportamentos e emoções');
+        writeln('d A baixa qualidade dos vídeos publicados nas plataformas');
         //resposta
         writeln();
         write('Digite a resposta certa em letra maiuscula: ');
