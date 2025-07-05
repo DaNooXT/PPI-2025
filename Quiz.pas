@@ -52,7 +52,7 @@ begin
         writeln('D) A baixa qualidade dos vídeos publicados nas plataformas');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if ((r = 'C') or (r = 'C')) then
@@ -86,7 +86,7 @@ begin
         writeln('C) Os algoritmos são neutros e sem influência nas decisões humanas');
         writeln('D) Eles ajudaram a criar sistemas que agora consideram perigosos');
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'D') then
@@ -121,7 +121,7 @@ begin
         writeln('D) Um programador que luta contra a desinformação');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'B') then
@@ -156,7 +156,7 @@ begin
         writeln('D) Um jogo de tabuleiro educativo');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'C') then
@@ -191,7 +191,7 @@ begin
         writeln('D) As redes sociais');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'A') then
@@ -226,7 +226,7 @@ begin
         writeln('D) A proibição de redes sociais em escolas');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'C') then
@@ -261,7 +261,7 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'B') then 
@@ -294,7 +294,7 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'A') then
@@ -329,7 +329,7 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'A') then
@@ -371,7 +371,7 @@ begin
         writeln('D)crenças, bolha, algoritmos');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'A') then
@@ -411,7 +411,7 @@ begin
         writeln('D) A baixa qualidade dos vídeos publicados nas plataformas');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'C') then
@@ -445,7 +445,7 @@ begin
         writeln('C) Os algoritmos são neutros e sem influência nas decisões humanas');
         writeln('D) Eles ajudaram a criar sistemas que agora consideram perigosos');
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'D') then
@@ -480,7 +480,7 @@ begin
         writeln('D) Um programador que luta contra a desinformação');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'B') then
@@ -515,7 +515,7 @@ begin
         writeln('D) Um jogo de tabuleiro educativo');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'C') then
@@ -550,7 +550,7 @@ begin
         writeln('D) As redes sociais');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'A') then
@@ -585,7 +585,7 @@ begin
         writeln('D) A proibição de redes sociais em escolas');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'C') then
@@ -620,7 +620,7 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'B') then 
@@ -653,7 +653,7 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'A') then
@@ -688,7 +688,7 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'A') then
@@ -730,7 +730,7 @@ begin
         writeln('D)crenças, bolha, algoritmos');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra maiuscula: ');
+        write('Digite a resposta certa em letra MAÍUSCULA: ');
         readln(r);
 
         if (r = 'A') then
@@ -1111,6 +1111,49 @@ begin
             writeln('---------------------------------------------');
         end;
     end;
+
+    //pontuação fera 
+    delay(500);
+    clrscr;
+    writeln();
+    delay(500);
+    textcolor(4);
+    write('     P');
+    delay(500);
+    textcolor(6);
+    write('O');
+    delay(500);
+    textcolor(10);
+    write('N');
+    delay(500);
+    textcolor(3);
+    write('T');
+    delay(500);
+    textcolor(9);
+    write('O');
+    delay(500);
+    textcolor(5);
+    write('S: ');
+    delay(500);
+    textcolor(7);
+    writeln(p);
+    writeln();
+
+    if (p<5) then
+        begin
+            textcolor(4);
+            writeln('Sua pontuação foi baixa. Você precisa melhorar!');
+        end
+    else if ((p>=5) and (p<8)) then
+        begin
+            textcolor(6);
+            writeln('Sua pontuação foi mediana. Você pode melhorar!');
+        end
+    else if (p>=8) then
+        begin
+            textcolor(10);
+            writeln('Sua pontuação foi ótima. Parabéns!');
+        end;
 
     repeat until keypressed;
 end.

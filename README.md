@@ -29,11 +29,9 @@ Execute o arquivo .exe gerado.
 
 - [x] Criar estrutura inicial do projeto
 - [x] Adicionar os três níveis
-- [ ] Adicionar pontuação
-- [ ] Finalizar
+- [x] Adicionar pontuação
+- [x] Finalizar
 
 ## 🙋‍♂️ Autores
 
 - [Jaykson](https://github.com/0Jaykxz), [Enzo](https://github.com/Alemaoprogramer), e [Raul](https://github.com/DaNooXT)
-
-bagual
