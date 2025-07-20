@@ -52,8 +52,9 @@ begin
         writeln('D) A baixa qualidade dos vídeos publicados nas plataformas');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if ((r = 'C') or (r = 'C')) then
         begin
@@ -86,8 +87,9 @@ begin
         writeln('C) Os algoritmos são neutros e sem influência nas decisões humanas');
         writeln('D) Eles ajudaram a criar sistemas que agora consideram perigosos');
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'D') then
         begin
@@ -121,8 +123,9 @@ begin
         writeln('D) Um programador que luta contra a desinformação');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'B') then
         begin
@@ -156,8 +159,9 @@ begin
         writeln('D) Um jogo de tabuleiro educativo');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'C') then
         begin
@@ -191,8 +195,9 @@ begin
         writeln('D) As redes sociais');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -226,8 +231,9 @@ begin
         writeln('D) A proibição de redes sociais em escolas');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'C') then
         begin
@@ -261,8 +267,9 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'B') then 
         begin
@@ -294,8 +301,9 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -329,8 +337,9 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -371,8 +380,9 @@ begin
         writeln('D)crenças, bolha, algoritmos');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -411,8 +421,9 @@ begin
         writeln('D) A baixa qualidade dos vídeos publicados nas plataformas');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'C') then
         begin
@@ -445,8 +456,9 @@ begin
         writeln('C) Os algoritmos são neutros e sem influência nas decisões humanas');
         writeln('D) Eles ajudaram a criar sistemas que agora consideram perigosos');
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'D') then
         begin
@@ -480,8 +492,9 @@ begin
         writeln('D) Um programador que luta contra a desinformação');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'B') then
         begin
@@ -515,8 +528,9 @@ begin
         writeln('D) Um jogo de tabuleiro educativo');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'C') then
         begin
@@ -550,8 +564,9 @@ begin
         writeln('D) As redes sociais');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -585,8 +600,9 @@ begin
         writeln('D) A proibição de redes sociais em escolas');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'C') then
         begin
@@ -620,8 +636,9 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'B') then 
         begin
@@ -653,8 +670,9 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -688,8 +706,9 @@ begin
         writeln('B) Falso');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -730,8 +749,9 @@ begin
         writeln('D)crenças, bolha, algoritmos');
         //resposta
         writeln();
-        write('Digite a resposta certa em letra MAÍUSCULA: ');
+        write('Digite a resposta certa: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -770,8 +790,9 @@ begin
         writeln('d) The low quality of videos posted on the platforms.');
         //resposta
         writeln();
-        write('Type the correct answer in capital letters:');
+        write('Type the correct answer:');
         readln(r);
+        r := upcase(r);
 
         if (r = 'C') then
         begin
@@ -804,8 +825,9 @@ begin
         writeln('C) Algorithms are neutral and have no influence on human decisions');
         writeln('D) They helped create systems that are now considered dangerous');
         writeln();
-        write('Type the correct answer in capital letters: ');
+        write('Type the correct answer: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'D') then
         begin
@@ -839,8 +861,9 @@ begin
         writeln('D) A programmer who fights against misinformation.');
         //resposta
         writeln();
-        write('Type the correct answer in capital letters: ');
+        write('Type the correct answer: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'B') then
         begin
@@ -874,8 +897,9 @@ begin
        writeln('D) An educational board game.');
         //resposta
         writeln();
-        write('Type the correct answer in capital letters: ');
+        write('Type the correct answer: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'C') then
         begin
@@ -909,8 +933,9 @@ begin
         writeln('D) The social media platforms.');
         //resposta
         writeln();
-        write('Type the correct answer in capital letters: ');
+        write('Type the correct answer: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -944,8 +969,9 @@ begin
         writeln('D) The banning of social media in schools.');
         //resposta
         writeln();
-        write('Type the correct answer in capital letters: ');
+        write('Type the correct answer: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'C') then
         begin
@@ -979,8 +1005,9 @@ begin
         writeln('B) False');
         //resposta
         writeln();
-        write('Type the correct answer in capital letters: ');
+        write('Type the correct answer: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'B') then 
         begin
@@ -1012,8 +1039,9 @@ begin
         writeln('B) False');
         //resposta
         writeln();
-        write('Type the correct answer in capital letters: ');
+        write('Type the correct answer: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -1047,8 +1075,9 @@ begin
         writeln('B) False');
         //resposta
         writeln();
-        write('Type the correct answer in capital letters: ');
+        write('Type the correct answer: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -1089,8 +1118,9 @@ begin
         writeln('D) beliefs, bubble, algorithms');
         //resposta
         writeln();
-        write('Type the correct answer in capital letters: ');
+        write('Type the correct answer: ');
         readln(r);
+        r := upcase(r);
 
         if (r = 'A') then
         begin
@@ -1142,12 +1172,12 @@ begin
     if (p<5) then
         begin
             textcolor(4);
-            writeln('Sua pontuação foi baixa. Você precisa melhorar!');
+            writeln('Sua pontuação foi baixa. Você precisa assistir o filme novamente!');
         end
     else if ((p>=5) and (p<8)) then
         begin
             textcolor(6);
-            writeln('Sua pontuação foi mediana. Você pode melhorar!');
+            writeln('Sua pontuação foi mediana. Você pode tentar prestar mais atenção em alguns trechos.');
         end
     else if (p>=8) then
         begin

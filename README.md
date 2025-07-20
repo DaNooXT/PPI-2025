@@ -25,13 +25,16 @@ fpc quiz.pas
 
 Execute o arquivo .exe gerado.
 
-## ✅ To Do List
+**ou voce pode baixar diretamente o arquivo [Quiz.exe](https://github.com/DaNooXT/PPI-2025/raw/refs/heads/main/Quiz.exe) desse repositório**
+
+## To Do List
 
 - [x] Criar estrutura inicial do projeto
 - [x] Adicionar os três níveis
 - [x] Adicionar pontuação
 - [x] Finalizar
+- [x] Adicionar correções das professoras
 
-## 🙋‍♂️ Autores
+## Autores
 
 - [Jaykson](https://github.com/0Jaykxz), [Enzo](https://github.com/Alemaoprogramer), e [Raul](https://github.com/DaNooXT)
