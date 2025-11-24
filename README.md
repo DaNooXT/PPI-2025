@@ -4,7 +4,7 @@ Trabalho de escola feito em pascal. **Caso você seja desenvolvedor, há uma lis
 
 ## Requisitos para instalação execução
 
-- Free Pascal Compiler (FPC);
+- Free Pascal Compiler (FPC) ou GCC;
 - Git;
 - CMD, terminal ou PowerShell;
 
@@ -20,7 +20,13 @@ cd PPI-2025
 Compile usando o Free Pascal:
 
 ```bash
-fpc quiz.pas
+fpc Quiz.pas
+```
+
+ou usando o GCC:
+
+```bash
+gcc -o Quiz Quiz.c
 ```
 
 Execute o arquivo .exe gerado.
