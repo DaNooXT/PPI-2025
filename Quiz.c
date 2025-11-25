@@ -3,8 +3,9 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <windows.h>
+#include <unistd.h>
 
-int pontos, mode = 0;
+int pontos, mode, bagual = 0;
 char userinput[4];
 
 void p(){
@@ -17,8 +18,16 @@ void pp(){
 
 void banner(){
     system("cls");
-
-    printf("Quiz - C version"); p();
+    
+    printf("\033[95m");
+    printf(" ██████╗ ██╗   ██╗██╗███████╗"); p();
+    printf("██╔═══██╗██║   ██║██║╚══███╔╝"); p();
+    printf("██║   ██║██║   ██║██║  ███╔╝"); p();
+    printf("██║▄▄ ██║██║   ██║██║ ███╔╝  "); p();
+    printf("╚██████╔╝╚██████╔╝██║███████╗"); p();
+    printf(" ╚══▀▀═╝  ╚═════╝ ╚═╝╚══════╝"); pp();
+    printf("Coded by: Jayks, Enzo e Raul"); p();
+    printf("\033[0m");
 
     p();
 }
@@ -34,21 +43,24 @@ Só colocar o enunciado, as opções e a alternativa correta, tudo separador por
 */
 void questao(char enunciado[], char a[], char b[], char c[], char d[], char resposta[]){
 
-    printf("%s", enunciado); p();
+    bagual = bagual + 1;
+
+    printf("\033[36m%d) %s", bagual, enunciado); p();
     p();
     printf("A) %s", a); p();
     printf("B) %s", b); p();
     printf("C) %s", c); p();
     printf("D) %s", d); p();
     p();
-    printf("Digite a resposta correta: ");
+    printf("\033[33mDigite a alternativa correta: \033[0m");
     scanf("%s", userinput); p();
     if (strcasecmp(userinput, resposta) == 0){
         pontos = pontos + 1;
-        printf("Resposta correta!"); p(); p();
+        printf("\033[92mResposta correta!\033[0m"); p(); p();
     } else {
-        printf("Resposta incorreta."); p(); p();
+        printf("\033[91mResposta incorreta. Alternativa correta:\033[92m %s\033[0m", resposta); p(); p();
     }
+    printf("======================================="); pp();
 
 }
 
@@ -61,9 +73,21 @@ int main(){
     printf("Selecione o modo de jogo: 1, 2 ou 3: ");
     scanf("%d", &mode); p(); p();
 
+    printf("======================================="); pp();
+
     if (mode == 1){// modo fácil
 
-        questao("Qual o maior pais do mundo?", "Brasil", "Rússia", "Canadá", "EUA", "b");
+        questao("Qual das alternativas melhor resume a principal crítica feita pelo documentário às redes sociais?", 
+            "A dificuldade de manter os usuários conectados por longos períodos", 
+            "A coleta de dados apenas para melhorar a experiência do usuário", 
+            "O uso de algoritmos para manipular comportamentos e emoções", 
+            "A baixa qualidade dos vídeos publicados nas plataformas", "c");
+
+        questao("Em 'O Dilema das Redes', ex-funcionários de grandes empresas de tecnologia afirmam que:", 
+            "As redes sociais incentivam apenas interações positivas", 
+            "A inteligência artificial está sendo usada apenas para resolver problemas sociais", 
+            "Os algoritmos são neutros e sem influência nas decisões humanas", 
+            "Eles ajudaram a criar sistemas que agora consideram perigosos", "d");
 
     } else if (mode == 2){// modo médio
 
