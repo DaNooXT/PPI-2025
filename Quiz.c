@@ -64,6 +64,13 @@ void questao(char enunciado[], char a[], char b[], char c[], char d[], char resp
 
 }
 
+void trueorfalse(char enunciado[], char resposta[]){
+
+    printf("%s. Verdadeiro (V) ou falso (F)? ");
+    scanf("%s", userinput);
+
+}
+
 int main(){
     setlocale(LC_ALL, "pt_BR.UTF-8");
     SetConsoleOutputCP(CP_UTF8);
@@ -81,13 +88,19 @@ int main(){
             "A dificuldade de manter os usuários conectados por longos períodos", 
             "A coleta de dados apenas para melhorar a experiência do usuário", 
             "O uso de algoritmos para manipular comportamentos e emoções", 
-            "A baixa qualidade dos vídeos publicados nas plataformas", "c");
+            "A baixa qualidade dos vídeos publicados nas plataformas", "C");
 
         questao("Em 'O Dilema das Redes', ex-funcionários de grandes empresas de tecnologia afirmam que:", 
             "As redes sociais incentivam apenas interações positivas", 
             "A inteligência artificial está sendo usada apenas para resolver problemas sociais", 
             "Os algoritmos são neutros e sem influência nas decisões humanas", 
-            "Eles ajudaram a criar sistemas que agora consideram perigosos", "d");
+            "Eles ajudaram a criar sistemas que agora consideram perigosos", "D");
+
+        questao("Qual está o papel do personagem Ben no enredo ficcional que acompanha o documentário?", 
+            "Um engenheiro que quer deletar sua conta nas redes.'", 
+            "Um adolescente influenciado por algoritmos de recomendação", 
+            "Um professor que dá aula sobre fake news", 
+            "Um programador que luta contra a desinformação", "B");
 
     } else if (mode == 2){// modo médio
 
